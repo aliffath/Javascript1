@@ -20,7 +20,7 @@ const averageGrade = (mtk, bahasaIndonesia, bahasaInggris, ipa) => {
     grade = "tidak ada";
   }
 
-  return `Rata - rata = ${average}\n Grade = ${grade}`;
+  return `Rata - rata = ${average}\nGrade = ${grade}`;
 };
 
 console.log(averageGrade(50, 60, 90, 70));
